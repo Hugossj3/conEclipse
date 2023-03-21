@@ -183,7 +183,7 @@ public class MainPanelController implements Initializable {
         chartSale.getData().addAll(saleSeries, saleReturnSeries);
         chartReceipt.getData().addAll(paymentSeries, receiptSeries);    
     }
-
+    //quiero un commit
     private void changeButtonBackground(ActionEvent e) {
         Iterator<Button> iteratorMenus = menus.iterator();
 
